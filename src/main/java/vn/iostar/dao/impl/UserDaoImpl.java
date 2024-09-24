@@ -61,7 +61,7 @@ public class UserDaoImpl implements IUserDao {
 				user.setPassword(rs.getString("password"));
 				user.setFullName(rs.getString("fullname"));
 				user.setAvatar(rs.getString("avatar"));
-				user.setPhoneNumber(rs.getString("phone"));
+				user.setPhoneNumber(rs.getString("phoneNumber"));
 				user.setRoleId(Integer.parseInt(rs.getString("roleid")));
 				user.setCreatedDate(rs.getDate("createdDate"));
 				return user;
@@ -115,7 +115,7 @@ public class UserDaoImpl implements IUserDao {
 				user.setPassword(rs.getString("password"));
 				user.setFullName(rs.getString("fullName"));
 				user.setAvatar(rs.getString("avatar"));
-				user.setPhoneNumber(rs.getString("phone"));
+				user.setPhoneNumber(rs.getString("phoneNumber"));
 				user.setRoleId(Integer.parseInt(rs.getString("roleid")));
 				user.setCreatedDate(rs.getDate("createdDate"));
 				return user;
