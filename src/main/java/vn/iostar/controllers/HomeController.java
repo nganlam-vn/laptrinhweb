@@ -23,6 +23,6 @@ public class HomeController extends HttpServlet{
 		}
 		
 		
-		req.getRequestDispatcher("/views/home.jsp").forward(req, resp);
+		req.getRequestDispatcher("/WEB-INF/decorations/web.jsp").forward(req, resp);
 	}
 }
